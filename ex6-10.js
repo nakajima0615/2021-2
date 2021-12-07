@@ -1,3 +1,2 @@
 function imgchange1(){
-    document.getElementById('Logo').src='./image/bulbon.gif';
-}
+ document.getElementById('JUFC_logo').src={'./Image/josai_tatemono.jpg';}
