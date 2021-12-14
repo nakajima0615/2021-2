@@ -1,2 +1,2 @@
 function imgchange1(){
- document.getElementById('JUFC_logo').src={'./Image/josai_tatemono.jpg';}
+ document.getElementById('JUFC_logo').src = './image/keiei_small.jpg';}
