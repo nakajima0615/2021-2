@@ -17,6 +17,7 @@
   <script src="ex6-10.js"></script><!--この行を追加-->
   <script src="ex6-11.js"></script><!--この行を追加-->
   <script src="ex6-12.js"></script><!--この行を追加-->
+  <script src="ex6-13.js"></script><!--この行を追加-->
   <script src="ex07-1.js"></script><!--この行を追加-->
   <script src="ex07-3.js"></script><!--この行を追加-->
 
@@ -196,15 +197,18 @@ onclick="imgchange1();">
 
 <h1>練習問題6.12</h1>
 <form name="timer2">
-  <input type="button"value="スタート" onclick="hyoji()">
+  <input type="button"value="スタート" onclick="hyoji2()">
   <br>
   <input type="text"name="moji2"size="30"value="">
 </form>
 
 <h1>練習問題6.13</h1>
 <form>
-  <input type="button" value="timer"
-onclick="setTimeout('mes()',3000)">
+  <input type="button" value="画像の変更３秒で戻る"
+onclick="imgchange2();setTimeout('bthress()',3000)">
+<img src='./image/Josai_tatemono.jpg' id="JU_Tate" alt="JUFC" class="imagechange">
+<br>
+
 </form>
 
 

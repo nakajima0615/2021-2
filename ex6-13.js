@@ -1,6 +1,2 @@
-function imgchange1(){
-    document.getElementById('JUFC_logo').src = './image/keiei_small.jpg';}
-   //setTimeout()を含む関数を呼び出す
-   setTimeout(() => {
-       
-   }, timeout);
+ function imgchange2()  {document.getElementById('JU_Tate').src = './image/josai_footboll.jpg.jpg';}
+function bthress () {document.getElementById('JUFC_logo').src = './image/Josai_tatemono.jpg';}
